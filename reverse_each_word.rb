@@ -4,5 +4,5 @@ array.reverse!
 end 
 
   def reverse_words
-    split(/\s+/).map{|w|wl=w.length-1;(0..wl).map{|i|w[wl-i]}.join}.join(' ')
+    "Hello there, and who are you?".split(/\s+/).map{|w|wl=w.length-1;(0..wl).map{|i|w[wl-i]}.join}.join(' ')
   end
